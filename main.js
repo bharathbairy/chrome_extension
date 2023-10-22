@@ -1,6 +1,6 @@
 // Function to fetch and display a joke
 function fetchAndDisplayJoke() {
-    fetch('https://icanhazdadjoke.com/slack')
+    fetch('https://icanhazdadjoke.com/slack') // API source icanhazdadjoke.com
         .then(response => response.json())
         .then(jokeData => {
             const jokeText = jokeData.attachments[0].text;
