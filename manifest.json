@@ -1,0 +1,10 @@
+{
+    "name" : "Try Not to Laugh!",
+    "version" : "1.0.0",
+    "manifest_version": 2,
+    "browser_action" : {
+        "default_popup": "index.html",
+        "default_icon": "./laughing.png"
+    },
+    "permissions" : ["activeTab"]
+}

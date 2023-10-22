@@ -1,0 +1,28 @@
+body {
+    width: 320px;
+    height: auto;
+    margin-bottom: 14px;
+    background-color: black;
+    color: white;
+}
+
+p{
+    display: inner-flex;
+    margin: auto 10px;
+    font-size: 22px;
+    color: white;  
+    padding: 10px;
+}
+
+button {
+    background: none;
+    color: black;
+    border: black;
+    font-size: 30px;
+    border-radius: 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+button:focus {
+    outline: none;
+}
